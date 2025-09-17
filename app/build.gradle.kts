@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.maven)
 }
 
 android {
@@ -48,6 +49,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    implementation(libs.github.repo.pinview)
-    implementation(":pinview")
+//    implementation(libs.github.repo.pinview)
+    implementation(" :pinview")
 }

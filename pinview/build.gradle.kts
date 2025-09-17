@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.pinview"
+    namespace = "com.pinview.widget"
     compileSdk = 36
 
     defaultConfig {
@@ -39,13 +39,7 @@ android {
 }
 
 dependencies {
-
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
     implementation(libs.material)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
 }
 
 afterEvaluate {
@@ -55,7 +49,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "io.github.jaydipchavdaa369"
                 artifactId = "pinentryview"
-                version = "1.0.0"
+                version = "1.0"
             }
         }
     }

@@ -36,7 +36,6 @@ import androidx.core.widget.addTextChangedListener
 import com.google.android.material.shape.CornerFamily
 import com.google.android.material.shape.MaterialShapeDrawable
 import com.google.android.material.shape.ShapeAppearanceModel
-import com.pinview.R
 import kotlin.math.cos
 import kotlin.math.min
 import kotlin.math.sin

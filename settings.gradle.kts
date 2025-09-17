@@ -21,5 +21,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Pinview"
-include(":app")
-include(":pinview")
+include(":app", ":pinview")
