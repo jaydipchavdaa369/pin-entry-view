@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PinEntryView">
+
+        <!-- Size & Shape -->
+        <attr name="pinBoxSize" format="dimension" />
+        <attr name="pinBoxWidth" format="dimension"/>
+        <attr name="pinSpacing" format="dimension" />
+        <attr name="pinCornerRadius" format="dimension" />
+        <attr name="pinStrokeWidth" format="dimension" />
+        <attr name="pinTextSize" format="dimension" />
+
+        <!-- Colors -->
+        <attr name="pinBgInactive" format="color|reference" />
+        <attr name="pinBgActive" format="color|reference" />
+        <attr name="pinStrokeInactive" format="color|reference" />
+        <attr name="pinStrokeActive" format="color|reference" />
+        <attr name="pinTextColor" format="color|reference" />
+
+        <!-- PIN length -->
+        <attr name="pinLength" format="integer" />
+
+        <!-- ONE parameter for all shapes (autocompletion words) -->
+        <attr name="pinShape" format="enum">
+            <enum name="rounded"   value="0"/>
+            <enum name="circle"    value="1"/>
+            <enum name="rectangle" value="2"/>
+            <enum name="pill"      value="3"/>
+            <enum name="cut"       value="4"/>
+            <enum name="triangle"  value="5"/>
+            <enum name="diamond"   value="6"/>
+            <enum name="hexagon"   value="7"/>
+            <enum name="octagon"   value="8"/>
+        </attr>
+
+    </declare-styleable>
+</resources>

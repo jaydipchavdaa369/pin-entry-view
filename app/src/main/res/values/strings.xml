@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Pinview</string>
+    <string name="pin">Enter PIN</string>
+</resources>
