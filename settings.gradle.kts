@@ -16,9 +16,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url = uri("https://jitpack.io") }
+        maven ( url = "https://jitpack.io")
     }
 }
 
 rootProject.name = "Pinview"
-include(":app", ":pinview")
+include(":app")
+include(":pinview")
